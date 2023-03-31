@@ -1,0 +1,24 @@
+/* my Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Roboto+Mono:ital@0;1&display=swap');
+
+:root {
+    --font-primary:'Playfair Display', serif;
+    --font-secondary: 'Roboto Mono', monospace;
+    --primary-color: #120130;
+    --secondary-color: #2afaec;
+    --third-color:#fae505;
+    --black-color:#070707;
+    --white-color:#fefefe;
+    --grey-color: #6b7583;
+    --lightGray-color: #eae5e5;
+    --darker-blue: #080018;
+    
+    font-size: 62.5%;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
