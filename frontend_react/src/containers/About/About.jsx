@@ -3,6 +3,7 @@ import  './About.scss'
 import {motion} from 'framer-motion'
 import {AppWrap, MotionWrap} from '../../wrapper'
 import {urlFor, client} from '../../client';
+import { LazyLoadImage } from "react-lazy-load-image-component"
 
 
 const About = () => {
@@ -34,7 +35,9 @@ const About = () => {
            className='app__profile-picture app__flex'
          
            >
-             <img src={urlFor(about.imgUrl).url()} alt="Kishan Verma"/>
+            <LazyLoadImage src= {urlFor(about.imgUrl).url()}
+            alt="Kishan Verma"/>
+             {/* <img src={urlFor(about.imgUrl).url()} alt="Kishan Verma"/> */}
            </motion.div>
    
            <motion.div 
